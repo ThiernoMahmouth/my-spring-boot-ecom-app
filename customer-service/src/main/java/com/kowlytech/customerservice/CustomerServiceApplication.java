@@ -19,6 +19,7 @@ public class CustomerServiceApplication
         SpringApplication.run(CustomerServiceApplication.class, args);
     }
 
+    /*
     @Bean
     public CommandLineRunner commandLineRunner(CustomerRepository customerRepository, RepositoryRestConfiguration restConfig)
     {
@@ -35,5 +36,8 @@ public class CustomerServiceApplication
             customerRepository.findAll().forEach(c -> System.out.println(c));
         };
     }
+
+
+    */
 
 }
